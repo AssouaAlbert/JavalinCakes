@@ -8,6 +8,6 @@ public class Main {
 
         app.get("/cakes", CakesController::getAllCakes);
 
-        app.get("/cakes/:special", CakesController::getSpecialCake);
+        app.get("/cakes/{special}", CakesController::getSpecialCake);
     }
 }
